@@ -4,8 +4,7 @@ print(my_dict.get('Dasha'))
 print(my_dict.get('Sasha'))
 my_dict.update({'Alex': '1986',
                 'Oleg': '1987'})
-del my_dict['Vasilisa']
-print(my_dict.get('Vasilisa','1995'))
+print(my_dict.pop('Vasilisa'))
 print(my_dict)
 
 my_set = {3, 5, 7, 5, 7, 3, 8, 8, 8, 3, 'Vasilisa', 'Vasilisa', 'Alex'}
